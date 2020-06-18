@@ -2,7 +2,7 @@ import normalization as norm
 import pandas as pd
 import numpy as np
 #
-# The library performs data normalization using two techniques, 0 and 1 and score-z. The function accepts the following entries: list, DataFrame pandas,
+# The library performs data normalization using two techniques, "0 to 1" and score-z. The function accepts the following entries: list, DataFrame pandas,
 #  Series pandas, and numPy array. The format of the output is the same as the input. If the data contains a column (or a 1-dimension array) with string
 #  or boolean data, the function will not apply normalization.
 #
@@ -16,7 +16,7 @@ import numpy as np
 #     once this it passes the data to the auxiliary function "normalize".
 
     #   data: list,numPy array, DataFrame or Serie
-    #   opt: 1(default) to normalize method 1 and 0, or
+    #   opt: 1(default) to normalize method "1 to 0", or
     #        2 to normalize method score-z.
     #
     #   return: the same tipe of input
@@ -27,7 +27,7 @@ import numpy as np
 #     Exclusive use of the first function is recommended, as it is auxiliary to the above function
         
     #     data: list
-    #     opt: 1(default) to normalize method 1 and 0, or
+    #     opt: 1(default) to normalize method "1 to 0", or
     #          2 to normalize method score-z.
     #
     #     return: list

@@ -1,4 +1,4 @@
-#The library performs the normalization in a panda dataframes,Panda Series, NumPy arrays and lists, using the method of 0 and 1 or score-z.
+#The library performs the normalization in a panda dataframes,Panda Series, NumPy arrays and lists, using the method of 0 to 1 or score-z.
 
 import pandas as pd
 import numpy as np
