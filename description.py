@@ -40,6 +40,18 @@ dataArray = np.array([[3211,612,3262,615,166,6216,62165,61265,6515,15585,61651,1
 
 dataSet = pd.read_csv("vgsales.csv")
 
+print("List:\n")
+print(dataList)
+print("\ndataFrame:\n")
+print(dataFrame)
+print("\nSeries:\n")
+print(dataSerie)
+print("\nArray\n")
+print(dataArray)
+print("\nDataSet:\n")
+print(dataSet)
+
+print("\n")
 print("List normalized with method 1:\n")    
 print(norm.normalizeData(dataList,1))
 print("\n")
