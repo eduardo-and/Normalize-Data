@@ -215,12 +215,12 @@ The library performs data normalization using two techniques, "0 to 1" and score
              print(dataSet.head)
    
    &nbsp;&nbsp;**output:**   
-   &nbsp;&nbsp; &nbsp;&nbsp; After Normalization:
-      ![After](/images/After.png)
+   &nbsp;&nbsp; &nbsp;&nbsp; Before Normalization:
+     ![Before](/images/dataset.png)
       
 
-   &nbsp;&nbsp; &nbsp;&nbsp; Before Normalization:
-       ![Before](/images/dataset.png)
+   &nbsp;&nbsp; &nbsp;&nbsp; After Normalization:
+      ![After](/images/After.png)
               
 
 **To run the examples on your machine, move the description.py and normalization.py file into your project and run description.py.**
