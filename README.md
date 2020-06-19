@@ -215,38 +215,12 @@ The library performs data normalization using two techniques, "0 to 1" and score
              print(dataSet.head)
    
    &nbsp;&nbsp;**output:**   
-                
+   &nbsp;&nbsp; &nbsp;&nbsp; After Normalization:
+      ![After](/images/After.png)
+      
 
-              Here we have a exemple dataset(Video Game Sales ):
-
-              <bound method NDFrame.head of         Rank  ... Global_Sales
-              0          1  ...        82.74
-              1          2  ...        40.24
-              2          3  ...        35.82
-              3          4  ...        33.00
-              4          5  ...        31.37
-                   ...  ...          ...
-              16593  16596  ...         0.01
-              16594  16597  ...         0.01
-              16595  16598  ...         0.01
-              16596  16599  ...         0.01
-              16597  16600  ...         0.01
-
-              [16598 rows x 11 columns]>
-
-              After normalization:
+   &nbsp;&nbsp; &nbsp;&nbsp; Before Normalization:
+       ![Before](/images/dataset.png)
               
-              <bound method NDFrame.head of         Rank  ... Global_Sales
-              0     -1.732  ...       52.864
-              1     -1.732  ...       25.533
-              2     -1.732  ...       22.690
-              3     -1.731  ...       20.876
-              4     -1.731  ...       19.828
-                   ...  ...          ...
-              16593  1.731  ...       -0.339
-              16594  1.731  ...       -0.339
-              16595  1.732  ...       -0.339
-              16596  1.732  ...       -0.339
-              16597  1.732  ...       -0.339
 
 **To run the examples on your machine, move the description.py and normalization.py file into your project and run description.py.**
