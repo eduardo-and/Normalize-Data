@@ -211,7 +211,7 @@ The library performs data normalization using two techniques, "0 to 1" and score
              print(dataSet.head)
              print("\n")
              print("After normalization:")
-             dataSet = norm.normalizeData(dataSet,2)
+             dataSet = norm.normalizeData(dataSet,1)
              print(dataSet.head)
    
    &nbsp;&nbsp;**output:**   
